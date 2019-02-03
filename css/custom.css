@@ -5,5 +5,15 @@
   margin-bottom: 30px;
   color: inherit;
   background-color: #eeeeee;
-  height: 500px
+  height: 500px;
+  width: 100%;
+}
+
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eeeeee;
+  width: 100%;
 }

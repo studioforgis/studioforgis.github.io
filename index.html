@@ -43,7 +43,7 @@
                 <li><a href="GIS.html">Sistemi Informativi Geografici</a></li>
                 <li><a href="#">Valutazionei ambientali</a></li>
 				<li><a href="#">FormazioneGIS</a></li>
-				<li><a href="#">Ricerca</a></li>
+				<li><a href="#">Pubblicazioni</a></li>
 				<li><a href="#">Altri servizi</a></li>
 				<li><a href="#">Collaborazioni</a></li>
                 <li role="separator" class="divider"></li>
@@ -52,9 +52,7 @@
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+            <li><a href="#contact">News</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -65,7 +63,7 @@
 </div> -->
 
 <!-- Carousel ================================================== -->
-    <div id="myCarousel" class="carousel slide">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="item active">
           <img src="images/slide/1.png">
@@ -110,10 +108,6 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-      <h2>About Me</h2>
-      <h5>Photo of me:</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
       <h3>Some Links</h3>
       <p>Lorem ipsum dolor sit ame.</p>
       <ul class="nav nav-pills nav-stacked">
@@ -149,9 +143,12 @@
   <i class="fa fa-globe"></i> www.forgis.it | www.lezionigis.it<br>
 </div>
 </div>-->
+
+
 <div class="jumbotron">
+<div class="container">
     <div class="row">
-      <div id = "contact" class="col-md-3">
+      <div id = "contact" class="col-md-4">
   <p style = "font-size: 16px; margin-left:10px"><b>Contatti</b></p>
   <p style="font-size:12px; margin-left:10px"><i class="fa fa-user"></i> Dott. For. Ludovico Frate, PhD<br>
   <i class="fa fa-map-marker"></i> Via Kennedy 80 - 81670 - Isernia | Via Montalto 17 - 86087 Rionero Sannitico (Isernia)<br> 
@@ -159,8 +156,25 @@
   <i class="fa fa-phone"></i> Cel +39 333 3767557<br>
   <i class="fa fa-at"></i> frateludovico@gmail.com | l.frate@conafpec.it<br>
   <i class="fa fa-globe"></i> www.forgis.it | www.lezionigis.it<br></p>
-    </div>
-	  <div class="col-md-6">
+  <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="map/mappa.html" allowfullscreen></iframe>
+  </div>
+  <p> <b>News</b> </p>
+<div class="container">
+<div id="textSlider" class="row">
+					<div class="slideCol">
+						<div class="scroller">
+							<div class="inner">
+								<p><a href="https://www.lezionigis.it/esercizi-svolti-in-qgis-guida-pratica-allanalisi-vettoriale/" style="text-decoration:none" target="_blank">Libro: Esercizi svolti in QGIS</p></a>
+								<p><a href="https://lezionigis.it" style="text-decoration:none" target="_blank"> Nuovo tutorial su lezionigis.it</a><p>
+								<p><a href="https://lezionigis.it" style="text-decoration:none" target="_blank">Corso Base QGIS a Isernia</a></p>
+							</div>
+						</div>
+					</div>
+</div>
+</div>
+  </div>
+  <div class="col-md-4">
   <p style = "font-size: 16px; margin-left:10px"><b>Contattami</b></p>
   <div class="column">
 	  <form action="mailto:studio.forgis@gmail.com" method="post" enctype="text/plain">
@@ -170,23 +184,27 @@
         <input type="text" id="lname" name="lastname" placeholder="Il tuo cognome..">
         <label for="subject">Oggetto</label>
         <textarea id="subject" name="subject" placeholder="Scrivi qualcosa.." style="height:170px"></textarea>
-        <input type="submit" value="Submit">
+        <input type="submit" class="btn btn-success" value="Invia">
       </form>
     </div>
   </div>
-  <div class="col-md-3">
+  <div class="col-md-4">
 	  <p style = "font-size: 16px;"><b>Seguimi</b></p>
-      <a style="padding-left:0px;" href="https://www.w3schools.com"title="Facebook" target="_blank"> <i class="fab fa-facebook-square fa-lg"></i></a>
-	  <a style="padding-left:10px;" href="https://www.w3schools.com" title="Linkedin" target="_blank"> <i class="fab fa-linkedIn fa-lg"></i> </a>
-	  <a style="padding-left:10px;" href= "https://github.com/ludovico85?tab=repositories" title="Github" target="_blank"> <i class="fab fa-github-square fa-lg"></i></a>
-	  <a style="padding-left:10px;" href= "https://www.researchgate.net/profile/Ludovico_Frate" title="Researchgate" target="_blank"> <i class="fab fa-researchgate fa-lg"></i></a><br><br>
+      <a style="padding-left:0px; text-decoration:none" href="https://www.w3schools.com"title="Facebook" target="_blank"> <i class="fab fa-facebook-square fa-lg"></i></a>
+	  <a style="padding-left:10px;text-decoration:none" href="https://www.w3schools.com" title="Linkedin" target="_blank"> <i class="fab fa-linkedIn fa-lg"></i> </a>
+	  <a style="padding-left:10px;text-decoration:none" href= "https://github.com/ludovico85?tab=repositories" title="Github" target="_blank"> <i class="fab fa-github-square fa-lg"></i></a>
+	  <a style="padding-left:10px;text-decoration:none" href= "https://www.researchgate.net/profile/Ludovico_Frate" title="Researchgate" target="_blank"> <i class="fab fa-researchgate fa-lg"></i></a><br><br>
 	  <p style = "font-size: 16px;"><b>Informazioni</b></p>
   <p style="font-size:12px;">Sito realizzato da Ludovico Frate<br>
-  Creato con <a href="https://getbootstrap.com/" target="_blank">Bootstrap<a/> - Icone <a href="https://origin.fontawesome.com/" target="_blank">Font Awesome</a></p>
+  Creato con <a href="https://getbootstrap.com/" style="text-decoration:none" target="_blank">Bootstrap<a/> - Icone <a href="https://origin.fontawesome.com/" style="text-decoration:none" target="_blank">Font Awesome</a><br>
+  Hosted on <a href="https:github.com" style="text-decoration:none">GitHub</a></p>
+	  <p style = "font-size: 16px;"><b>Chi sono</b></p>
+      <div class="fakeimg">Fake Image</div>
+      <p style = "font-size: 14px;">Ciao, sono Ludovico Frate, Dottore forestale appassionato di GIS e analisi spaziali...</p>
+	  <a href="chi sono.html" style="text-decoration:none" target="_blank"><button type="button" class="btn btn-success">Leggi di più</button></a>
       </div>
     </div>
     </div>
-</div>
-
+	</div>
 </body>
 </html>
