@@ -9,17 +9,31 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/smooth.js"></script>
   <style>
   .fakeimg {
     height: 200px;
     background: #aaa;
   }
   </style>
- <style>
+  <style>
+    a {color: #01bbf5;
+	   hover: #8fbd0d;
+	   visited:#8fbd0d;
+	} /*/ link color
+	
+  </style>
+<style>
+ body  {
+  background-image: url("https://backgroundcheckall.com/wp-content/uploads/2017/12/gis-background-2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
  </style>
 </head>
 <body>
-
 <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -33,12 +47,13 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+			<li class="active"><a href="#">Home</a></li>
             <li><a href="#about">Chi sono</a></li>
             <li><a href="#contact">Contatti</a></li>
+			<li><a href="#curriculum.html">Curriculum</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
-              <ul class="dropdown-menu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servizi <span class="caret"></span></a>
+              <ul class="dropdown-menu" style="background-color:rgba(0,0,0,0.7);">
                 <li><a href="#">Progettazione Forestale</a></li>
                 <li><a href="GIS.html">Sistemi Informativi Geografici</a></li>
                 <li><a href="#">Valutazionei ambientali</a></li>
@@ -50,9 +65,6 @@
                 <li><a href="#">Curriculum</a></li>
               </ul>
             </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#contact">News</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -104,8 +116,94 @@
 	  </a>
     </div><!-- /.carousel -->
 
-
+<section class = "presentazione">
 <div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2 style = "vertical-align: text-top; color:#8fbd0d;"><b>Cosa facciamo</b></h2>
+    </div>
+    <div class="col-sm-8">
+      <h2>Lo studio nasce nel 2018 per offrire servizi e consulenze nel campo della pianificazione forestale e territoriale, con un focus specifico sui Sistemi Informativi Geografici - GIS</h2>
+      <h2>Lo studio si avvale di una fitta rete di contatti e collaborazioni</h2>
+    </div>
+  </div>
+ 
+ <div class="row">
+    <div class="col-sm-4">
+      <h3 style="text-align: left;"><i class="fa fa-tree fa"></i> PROGETTAZIONE FORESTALE</h3>
+	  <li>Progetti di utilizzazione boschiva per enti pubblici</li>
+	  <li>Progettazione boschiva per privati</li>
+	  <li>Piani di Assestamento Forestale</li>
+	  <li>Piani di miglioramento forestale</li>
+    </div>
+    <div class="col-sm-4">
+      <h3 style="text-align: left;"><i class="fa fa-globe fa"></i> SISTEMI INFORMATIVI GEOGRAFICI</h3>
+	  <li>Progettazione di Sistemi Inforamtivi Geografici</li>
+	  <li>Redazione di cartografie tematiche</li>
+	  <li>WebMap</li>
+	  <li>Soluzioni WebGIS per le Pubbliche Amministrazioni</li>
+    </div>
+	<div class="col-sm-4">
+      <h3 style="text-align: left;"><i class="fa fa-leaf"></i> VALUTAZIONI AMBIENTALI</h3>
+	  <li>Valutazioni di Impatto Ambientale VIA</li>
+	  <li>Studi di Incidenza VINCA</li>
+	  <li>Relazioni naturalistiche</li>
+	  <li>Relazioni paesaggistiche</li>
+    </div>
+	</div>
+	<div class="row">
+	<div class="col-sm-4">
+	   <button type="button" class="btn btn-primary btn-sm">Leggi di più</button>
+    </div>
+	<div class="col-sm-4">
+	   <button type="button" class="btn btn-primary btn-sm">Leggi di più</button>
+    </div>
+	<div class="col-sm-4">
+	   <button type="button" class="btn btn-primary btn-sm">Leggi di più</button>
+    </div>
+	</div>
+	<div class="row">
+	<div class="col-sm-4">
+      <h3 style="text-align: left;"><i class="fa fa-map"></i> PIANIFICAZIONE E PROGETTAZIONE TERRITORIALE</h3>
+	  <li>Bio-riqualificazione ambientale</li>
+	  <li>Analisi territoriali</li>
+	  <li>Studi socio-economici</li>
+	  <li>Processi partecipativi</li>
+    </div>
+	<div class="col-sm-4">
+      <h3 style="text-align: left;"><i class="fa fa-cog"></i> ALTRI SERVIZI</h3>
+	  <li>Piani di Sviluppo Rurale</li>
+	  <li>Stime estimative</li>
+	  <li>Verde urbano</li>
+    </div>
+	<div class="col-sm-4">
+      <h3 style="text-align: left;"><i class="fa fa-flask"></i> RICERCA E PUBBLICAZIONI</h3>
+	  Lo studio collabora attivamente con università nelle seguenti tematiche:
+	  <li>Ecologia del paesaggio</li>
+	  <li>Cambiamenti climatici ed effetti sulla vegetazione d'alta quota</li>
+	  <li>Biodiversità vegetale e animale</li>
+    </div>
+	</div>
+	<div class="row">
+	<div class="col-sm-4">
+	   <button type="button" class="btn btn-primary btn-sm">Leggi di più</button>
+    </div>
+	<div class="col-sm-4">
+	   <button type="button" class="btn btn-primary btn-sm">Leggi di più</button>
+    </div>
+	<div class="col-sm-4">
+	   <button type="button" class="btn btn-primary btn-sm">Leggi di più</button>
+    </div>
+	</div>
+	<br>
+	<br>
+  
+
+  
+  </div>
+</section>
+<section class="lavori">
+<div class="container" style= "background-color: rgba(0,0,0,0)">
   <div class="row">
     <div class="col-sm-4">
       <h3>Some Links</h3>
@@ -118,21 +216,28 @@
       <hr class="hidden-sm hidden-md hidden-lg">
     </div>
     <div class="col-sm-8">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
+      <h4>Lo studio nasce nel 2018 per offrire servizi e consulenze nel campo della pianificazione forestale, territoriale e ambientale con un focus specifico sui Sistemi Informativi Geografici - GIS.</h4>
+      <h4>Lo studio si avvale di una fitta rete di contatti e collaborazioni</h4>
+      <p></p>
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
       <br>
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <h4>News</h4>
+     <div id="textSlider" class="row">
+					<div class="slideCol">
+						<div class="scroller">
+							<div class="inner">
+								<p style = "padding-left:10px"><a href="https://www.lezionigis.it/esercizi-svolti-in-qgis-guida-pratica-allanalisi-vettoriale/" style="text-decoration:none" target="_blank">Libro: Esercizi svolti in QGIS</p></a>
+								<p style = "padding-left:10px"><a href="https://lezionigis.it" style="text-decoration:none" target="_blank"> Nuovo tutorial su lezionigis.it</a><p>
+								<p style = "padding-left:10px"><a href="https://lezionigis.it" style="text-decoration:none" target="_blank">Corso Base QGIS a Isernia</a></p>
+							</div>
+						</div>
+					</div>
+    </div>
+	<p></p>
     </div>
   </div>
 </div>
-
+</section>
 <!--<div class="jumbotron text-left" style="margin-bottom:0;">
 <div class 
   <p style="font-size:12px; margin-left:10px"><i class="fa fa-user"></i> Dott. For. Ludovico Frate, PhD<br>
@@ -144,11 +249,11 @@
 </div>
 </div>-->
 
-
+<section class = "contatti">
 <div class="jumbotron">
-<div class="container">
+<div class="container2">
     <div class="row">
-      <div id = "contact" class="col-md-4">
+  <div id = "contact" class="col-md-4">
   <p style = "font-size: 16px; margin-left:10px"><b>Contatti</b></p>
   <p style="font-size:12px; margin-left:10px"><i class="fa fa-user"></i> Dott. For. Ludovico Frate, PhD<br>
   <i class="fa fa-map-marker"></i> Via Kennedy 80 - 81670 - Isernia | Via Montalto 17 - 86087 Rionero Sannitico (Isernia)<br> 
@@ -159,23 +264,9 @@
   <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="map/mappa.html" allowfullscreen></iframe>
   </div>
-  <p> <b>News</b> </p>
-<div class="container">
-<div id="textSlider" class="row">
-					<div class="slideCol">
-						<div class="scroller">
-							<div class="inner">
-								<p><a href="https://www.lezionigis.it/esercizi-svolti-in-qgis-guida-pratica-allanalisi-vettoriale/" style="text-decoration:none" target="_blank">Libro: Esercizi svolti in QGIS</p></a>
-								<p><a href="https://lezionigis.it" style="text-decoration:none" target="_blank"> Nuovo tutorial su lezionigis.it</a><p>
-								<p><a href="https://lezionigis.it" style="text-decoration:none" target="_blank">Corso Base QGIS a Isernia</a></p>
-							</div>
-						</div>
-					</div>
-</div>
-</div>
   </div>
   <div class="col-md-4">
-  <p style = "font-size: 16px; margin-left:10px"><b>Contattami</b></p>
+  <p style = "font-size: 16px;"><b>Contattami</b></p>
   <div class="column">
 	  <form action="mailto:studio.forgis@gmail.com" method="post" enctype="text/plain">
         <label for="fname">Nome</label>
@@ -196,15 +287,31 @@
 	  <a style="padding-left:10px;text-decoration:none" href= "https://www.researchgate.net/profile/Ludovico_Frate" title="Researchgate" target="_blank"> <i class="fab fa-researchgate fa-lg"></i></a><br><br>
 	  <p style = "font-size: 16px;"><b>Informazioni</b></p>
   <p style="font-size:12px;">Sito realizzato da Ludovico Frate<br>
-  Creato con <a href="https://getbootstrap.com/" style="text-decoration:none" target="_blank">Bootstrap<a/> - Icone <a href="https://origin.fontawesome.com/" style="text-decoration:none" target="_blank">Font Awesome</a><br>
+  Creato con <a href="https://getbootstrap.com/" style="text-decoration:none" target="_blank">Bootstrap</a> - Icone <a href="https://origin.fontawesome.com/" style="text-decoration:none" target="_blank">Font Awesome</a><br>
   Hosted on <a href="https:github.com" style="text-decoration:none">GitHub</a></p>
 	  <p style = "font-size: 16px;"><b>Chi sono</b></p>
-      <div class="fakeimg">Fake Image</div>
       <p style = "font-size: 14px;">Ciao, sono Ludovico Frate, Dottore forestale appassionato di GIS e analisi territoriali...</p>
 	  <a href="chi sono.html" style="text-decoration:none" target="_blank"><button type="button" class="btn btn-success">Leggi di più</button></a>
+	 <br>
+	 <br>
+	 <p><b>News</b> </p>
+     <div class="container">
+     <div id="textSlider" class="row">
+					<div class="slideCol">
+						<div class="scroller">
+							<div class="inner" style = "background:rgba(0,0,0,0.1);">
+								<p><a href="https://www.lezionigis.it/esercizi-svolti-in-qgis-guida-pratica-allanalisi-vettoriale/" style="text-decoration:none" target="_blank">Libro: Esercizi svolti in QGIS</p></a>
+								<p><a href="https://lezionigis.it" style="text-decoration:none" target="_blank"> Nuovo tutorial su lezionigis.it</a><p>
+								<p><a href="https://lezionigis.it" style="text-decoration:none" target="_blank">Corso Base QGIS a Isernia</a></p>
+							</div>
+						</div>
+					</div>
+    </div>
+    </div>
       </div>
     </div>
     </div>
 	</div>
+</section>
 </body>
 </html>
