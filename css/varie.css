@@ -4,7 +4,7 @@
 
     /* Carousel base class */
     .carousel {
-      margin-bottom: 60px;
+      margin-bottom: 0px;
     }
 
     .carousel .container {
@@ -38,7 +38,7 @@
       position: static;
       max-width: 1000px;
       padding: 0 20px;
-	  text-align: left;
+	  text-align: center;
       margin-top: 200px;
 	  margin-left: 100px;
     }
@@ -138,7 +138,6 @@
       }
     }
 
-
     @media (max-width: 767px) {
 
       .navbar-inner {
@@ -183,6 +182,71 @@
         line-height: 1.5;
       }
 
+    }
+
+@media (min-width: 1200px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+      }
+
+      .carousel .item {
+        height: 550px;
+      }
+      .carousel img {
+        width: auto;
+        height: 550px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+	
+@media (min-width: 1900px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+      }
+
+      .carousel .item {
+        height: 800px;
+      }
+      .carousel img {
+        width: auto;
+        height: 800px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
     }
 
 .studio {
@@ -326,3 +390,26 @@ input[type=submit]:hover {
 	.iamCol { text-align: right; font-size:30pt; }
 	.slideCol { font-size: 55pt; text-align: left; }
 }
+
+/* Style the header */
+.black {
+background-color:#E5E5E5;
+}
+
+
+.lavori {
+background-color:rgba(0,0,0,0.6);	
+}
+
+.contatti {
+background-color:rgba(255,255,255,1);		
+}
+
+.transition
+  height: 20vh
+  
+.transition-1
+  background: linear-gradient(rgba(#037ED2, 1), rgba(#0CA2BB, 1))
+  
+.transition-2
+  background: linear-gradient(rgba(#0CA2BB, 1), rgba(#037ED2, 1))
