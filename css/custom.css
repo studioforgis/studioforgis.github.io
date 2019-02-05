@@ -162,5 +162,5 @@ btn-primary:active,
 }
 
 .img-responsive {
-	height: 50%;
+	height: auto;
 }
