@@ -136,6 +136,10 @@
         max-width: 40%;
         margin: 0 auto 20px;
       }
+	 .row.equal {
+      display: flex;
+      flex-wrap: wrap;
+      }
     }
 
 	
@@ -182,6 +186,10 @@
         font-size: 18px;
         line-height: 1.5;
       }
+	  .row.equal {
+      display: flex;
+      flex-wrap: wrap;
+      }
 
     }
 
@@ -215,8 +223,12 @@
         max-width: 40%;
         margin: 0 auto 20px;
       }
+	  .row.equal {
+      display: flex;
+      flex-wrap: wrap;
+      }
     }
-
+	
 	
 @media (min-width: 1900px) {
 
@@ -247,6 +259,10 @@
         float: none;
         max-width: 40%;
         margin: 0 auto 20px;
+      }
+	  .row.equal {
+      display: flex;
+      flex-wrap: wrap;
       }
     }
 
@@ -394,13 +410,15 @@ input[type=submit]:hover {
 
 /* Style the header */
 .presentazione {
-background-color:rgba(0,0,0,0.5);
-color: #fff;
+background-color:rgba(255,255,255,1);
 }
 
+.leziongis {
+background-color:rgba(238,238,238,1);	
+}
 
 .lavori {
-background-color:rgba(255,255,255,0.6);	
+background-color:rgba(255,255,255,1);	
 }
 
 .contatti {
@@ -422,8 +440,6 @@ background-color:#efd50b;
 .gis {
 background-color:#b7d6ff;
 }
-
-
 
 .transition
   height: 20vh
@@ -521,3 +537,17 @@ background-color:#b7d6ff;
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
+
+.fa-stack {
+	color:rgb(238,238,238);
+}
+
+.row [class*="col-"]{
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+
+.row{
+  overflow: hidden; 
+}
+
